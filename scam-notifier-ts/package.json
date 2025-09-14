@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "forta-agent": "^0.1.45",
+    "forta-agent": "^0.1.46",
     "neo4j-driver": "^5.7.0"
   },
   "devDependencies": {
