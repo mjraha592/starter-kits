@@ -7,7 +7,7 @@ COPY requirements.txt ./
 RUN python3 -m pip install --user -r requirements.txt
 
 # Final stage: copy over Python dependencies and install production Node dependencies
-FROM node:12-alpine
+FROM node:24.8.0-alpine
 # this python version should match the build stage python version
 RUN apk add python3
 COPY --from=builder /root/.local /root/.local
