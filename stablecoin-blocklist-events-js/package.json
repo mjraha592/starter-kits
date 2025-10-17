@@ -20,7 +20,7 @@
   "dependencies": {
     "bignumber.js": "^9.0.2",
     "bot-alert-rate": "^0.0.4",
-    "forta-agent": "^0.1.33"
+    "forta-agent": "^0.1.46"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
